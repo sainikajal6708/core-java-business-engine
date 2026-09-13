@@ -1,0 +1,5 @@
+package com.rabtech.core.model;
+public class FullTimeEmployee extends Employee {
+    public FullTimeEmployee(String id, String name, double salary){ super(id,name,salary); }
+    @Override public double calculateBonus(){ return getSalary()*0.2; }
+}
